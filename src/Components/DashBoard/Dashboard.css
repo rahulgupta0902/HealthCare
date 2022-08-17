@@ -1,0 +1,753 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@300;500&display=swap');
+*{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+   
+}
+:root{
+    --font-small :"0.3rem",
+    --font-medium : "0.5rem",
+    --font-large :"1rem",
+    --font-larger:"1.5rem"
+
+}
+.apexcharts-menu-icon{
+    display: none;
+}
+.primary-btn{
+    background-color: var(--primary-color);
+    box-shadow: 0px 4px 4px rgba(111, 151, 146, 0.25);
+    border-radius: 8px;
+    min-width: 20rem;
+    min-height: 6rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.secondary-btn{
+    background-color: var(--seconday-color);
+    box-shadow: 0px 4px 4px rgba(111, 151, 146, 0.25);
+    border-radius: 8px;
+    min-width: 18rem;
+    min-height: 6rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.primaryalignbtns{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F3F3;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.dashboardFont{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.15em;
+    line-height: 15px;
+    color: #333333;
+}
+.DashboardContainer{   
+    position:relative; 
+    width: 100%;         
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    height: 91%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    background: #E5E5E5;
+   
+    
+}
+.quotes{
+  
+    box-shadow: 0px 4px 8px rgba(199, 199, 201, 0.5);
+    border-radius: 8px;
+    width: 93%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
+    background-color: white;
+
+    padding: 1rem;
+    
+}
+.quotesText{
+    font-size: 1em;
+}
+.dataContainer{
+    width: 93%;
+    display: flex;
+    justify-content: space-between;   
+    font-family: 'M PLUS Rounded 1c', sans-serif;    
+    height: 80%;
+   
+}
+.graphContainer{
+    width: 45%;  
+    border-radius: 1rem;
+    box-shadow: 0px 4px 8px rgba(199, 199, 201, 0.5);    
+    background-color: white;
+    padding-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+   
+  
+   
+}
+.middleContainers{
+    display: flex;
+    flex-direction: column;
+    width: 22%; 
+    align-items: center;   
+    justify-content: space-between;
+}
+.thirdContainer{      
+    width:24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.dashboardHeaders{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;   
+    position: relative;
+    min-height: 5%;
+   
+}
+.breakButtons{   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 13%;
+    background-color: #F3F3F3;
+    border-radius: 40px;
+}
+.playPausePromdoro{
+  
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 10%;
+   
+
+}
+.promodoroImage{   
+    display: flex;    
+    min-height: 70%;
+    width: 70%;    
+    position: relative;
+    overflow: hidden;
+
+}
+.test{
+    width: 100%;
+    height: 100%;   
+ 
+}
+
+.playicon{
+    position: absolute;
+    top: 40%;
+    left:40%;
+    cursor: pointer;   
+}
+
+.smallscales{
+    margin: 0.5rem;  
+    text-align: center;
+   
+   
+}
+.workingscale{
+    position: relative;
+    bottom: 40%;    
+    display: flex;
+    flex-direction: row;      
+    right: 45%;    
+    overflow: hidden;
+    
+    animation-name: exe1;
+    animation-duration: 1500s;
+  
+    min-height: 60%;
+ 
+}
+.shortbreakscale{
+    position: absolute;
+    top:60%;    
+    display: flex;
+    flex-direction: row;      
+    right: 45%;    
+    overflow: hidden;
+    animation-name: exe2;
+    animation-duration: 300s;
+ 
+}
+.longbreakscale{
+    position: absolute;
+    top:60%;    
+    display: flex;
+    flex-direction: row;      
+    right: 45%;    
+    overflow: hidden;
+    animation-name: exe3;
+    animation-duration: 900s; 
+}
+.timenumber{
+    font-weight: 500;
+    color: white;
+}
+.animationContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+   
+}
+.startbg{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 1rem;
+
+}
+.graphContentBox{
+    height: 100%;
+    width: 100%;
+ 
+  
+    
+}
+.dashboardbox{
+box-shadow: 0px 4px 8px rgba(199, 199, 201, 0.5);
+border-radius: 8px;
+height: 45%;
+display: flex;
+flex-direction: column;
+width: 100%;
+background-color: white;
+}
+.boxContentDashboard{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dashboardBoxContent{
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.moodBar{   
+box-shadow: 0px 4px 8px rgba(199, 199, 201, 0.5);
+border-radius: 8px;
+width: 100%;
+margin: 1rem;
+height: 30%;
+}
+
+
+
+.workbtn{
+width: 32%;
+text-align: center;
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px; 
+}
+.shortbreakbtn{
+   width: 33%;   
+}
+.longbreakbtn{  
+   width: 35%;
+   justify-content: center;
+   border-top-right-radius: 40px;
+   border-bottom-right-radius: 40px;   
+}
+.activepromdorobtn{
+    background: #D5ECD4;
+}
+.unactivepromdorobtn{
+    background: rgb(224, 232, 240);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.detailsAnalysisButton{
+    background: linear-gradient(180deg, rgba(213, 236, 212, 0.6) 0%, #D5ECD4 100%);
+    border-radius: 8px;  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;  
+    font-weight: 600;
+    font-size: 1em;
+    padding-right: 1rem;
+    width: 100%;
+    padding-top: 1rem;
+  
+  
+     
+
+  
+}
+
+
+
+
+
+.dashboardHeaders{
+    flex-basis: 15%;
+ }
+
+.moodBarData{
+    display: flex;
+    justify-content:space-around; 
+    width: 100%;
+}
+
+.moodHistoryData{
+    flex-basis: 85%;
+
+}
+
+.feelingText{    
+font-style: normal;
+font-weight: 400;
+font-size:12px;
+line-height: 15px;
+text-align: left;
+color: #333333;
+}
+.feelingDataText{
+padding-top: 0.5rem;
+font-style: normal;
+font-weight: 500;
+font-size: 1em;
+line-height: 15px;
+text-align: left;
+color: #333333;
+
+}
+.dateAndMood{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.dateText{   
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #333333;
+}
+.moodText{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+text-align: right;
+color: #333333;
+opacity: 0.57;
+}
+.dailyactivitiescontents{
+    overflow: scroll;
+    width: 100%;
+    height: 100%;   
+}
+
+.pf{   
+background: #FFFFFF;
+box-shadow: 0px 4px 8px rgba(199, 199, 201, 0.5);
+border-radius: 8px;
+margin-top: 3rem;
+height: 50%;
+}
+
+
+
+
+
+
+.dwa{
+    height: 40%;
+     background-color: #FFFFFF;
+    overflow-y: scroll;
+    box-shadow: 0px 4px 8px rgba(199, 199, 201, 0.5);
+border-radius: 8px;
+}
+
+.dailyCard{
+    display: flex;
+    justify-content: space-around;
+
+   
+    cursor: pointer;
+    background: #FFFFFF;
+box-shadow: 0px 4px 8px rgba(199, 199, 201, 0.75);
+border-radius: 8px;
+}
+.dailytext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dayTime{
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* or 150% */
+text-align: left;
+width: 100%;
+padding-bottom: 0.5rem;
+color: #787878;
+}
+.dayCare{
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* or 107% */
+
+
+color: #333333;
+
+}
+.pomodroFocusBottom{
+ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    min-height: 10%;
+   
+    
+
+}
+.workingBar{
+    height: 10%;
+    background: #E6878A;
+border-radius: 4px;
+}
+.shortBreakBar{
+    height:10%;
+    background: #FCC9C5;
+border-radius: 4px;
+}
+.longBreakBar{
+    height: 10%;
+    background: #D5ECD4;;
+border-radius: 4px;
+}
+.pomodroBottomText{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 1.5rem;
+line-height: 15px;
+color: #787878;
+min-height: 20%;
+}
+.pomodroMiddleText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    min-height: 10%;
+}
+.pomodroData{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+
+color: #333333;
+}
+.pomodroDataCaption{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 15px;
+text-align: center;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+margin-top: 1rem;
+
+color: #787878;
+}
+.moodHistory{
+    height: 50%;
+    overflow-y: scroll;
+}
+.dailyImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.at{
+    height: 50%;
+    margin-top: 3rem;
+    background: #FFFFFF;
+box-shadow: 0px 4px 8px rgba(199, 199, 201, 0.5);
+border-radius: 8px;
+
+font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+.dacc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.selfcareprompt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width:70vw;
+    height : 50vh;
+}
+.sccontent{
+    width : 100%;
+    height: 100%;
+    text-align: center;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.closebtn{
+    display: flex;
+    flex-direction: row-reverse; 
+    width:80%;
+}
+
+
+
+
+.activityContainer{
+    height: 80%;
+
+    
+}
+.promodroActivityTracker{  
+    position: relative;
+    min-height: 70%;
+    width: 100%;
+  
+}
+.radialimage{
+    position: absolute;
+    bottom: 20%;
+    left :25%;
+}
+.radialtext{
+    width: 100%;
+    position: absolute;
+    bottom: 30%; 
+    text-align: center;
+    color: #6F9792;
+  
+}
+
+.radialhour{
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+}
+.aboutDashboardContainer{
+    width: 24vw;
+    height: 20vh;
+    position: absolute;
+    top:0%;
+    right: 0%;
+    background-color: white;
+    z-index: 2;
+    border-left: 10px solid rgb(139, 244, 139);
+    border-right: 2px solid black;
+    box-shadow: 0px 8px 15px rgba(199, 199, 201, 0.25);
+}
+.aboutcontent{
+    width: 100%;
+    height: 100%; 
+    padding-left: 2rem;  
+    display: flex;
+    flex-direction: column;  
+}
+.aboutheader{
+    height: 15%;   
+    padding-top: 5%;
+    font-weight: 500;
+    text-decoration: underline;  
+}
+.aboutpara{
+margin-top: 3rem;
+overflow: scroll;    
+width: 90%;
+font-weight: 500;
+font-size: var(--fontsizeextrasmall);
+line-height: 22px;
+color: #545454;
+height: 65%;
+
+
+}
+
+.aboutfooter{   
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+
+    width: 100%;
+    height: 20%;
+   
+}
+.stepsabout{
+    border-top:2px solid var(--primary-color);
+    width: 50%;
+}
+.aboutbtns{  
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.prompts{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.sctext{
+min-height: 40%;
+text-align: center;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #333333;
+}
+
+.welcomeContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+ 
+
+}
+.welcomeLogo{
+   
+    width: 100%;
+  
+}
+.welcomeContent {
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.welcomeHeader{
+    font-weight: 800;
+    font-size: 1.25em;
+}
+.welcomepara{
+    font-weight: 500;
+    font-size: 1em;
+    color: #333333;
+}
+.letsGetStarted{
+    box-shadow: 0px 2px 4px rgba(199, 199, 201, 0.15);
+border-radius: 32px;
+background: var(--primary-color);
+width: 60%;
+min-height: 25%;
+text-align: center;
+cursor: pointer;
+}
+.letsGetStartedText{
+ font-weight: 700;   
+ color:#FFFFFF;
+ font-size: 1em;
+}
+
+
+  
+@keyframes exe1{
+    0%{
+        transform: translate(-25%);
+    }
+    100%{
+        transform: translate(68%);
+    } 
+}
+@keyframes exe2{
+    0%{
+        transform: translate(0%);
+    }
+    100%{
+        transform: translate(75%);
+    } 
+}
+@keyframes exe3{
+    0%{
+        transform: translate(0%);
+    }
+    100%{
+        transform: translate(90%);
+    }
+
+ 
+}

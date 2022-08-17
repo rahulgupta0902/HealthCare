@@ -1,0 +1,200 @@
+
+
+.faqs-section{
+    display: flex;
+    flex-direction: row;
+    min-height:91%;
+        background: #E5E5E5;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+}
+.faqs1{
+    width:55%;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.faqs1r1{
+    position:absolute;
+    top:18%;
+
+    font-weight: 800;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+
+text-align: center;
+
+color: #333333;
+}
+
+.faqs1r2{
+    position:absolute;
+    top:32%;
+}
+
+.faqs1r2 img{
+
+    height:300px;
+    width: 475px;
+    
+}
+.faqs2{
+    padding-top: 65px;
+    width:45%;
+}
+
+.faqs2 .panel-title{
+    font-weight: 800;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+display: flex;
+align-items: center;
+
+color: #333333;
+}
+
+
+.faqs2 #accordion.panel-group{
+    
+width:85%;
+}
+
+.faqs2 .panel-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #E5E5E5;
+
+
+height:60px;
+
+
+}
+
+
+.faqs2 .collapsing{
+    
+background-color:#E5E5E5;
+border:none;
+border-radius:0px;
+    box-shadow:0px 0px 0px rgb(199 199 201 / 25%);
+}
+
+
+.faqs2 .panel-default>.panel-heading{
+    border:none;
+    border-radius:0px;
+    box-shadow:0px 0px 0px rgb(199 199 201 / 25%);
+    background-color: #E5E5E5;
+    cursor: pointer;
+}
+.faqs2 .collapse.in{
+    border:none;
+    border-radius:0px;
+    box-shadow:0px 0px 0px rgb(199 199 201 / 25%);
+    background-color:#E5E5E5;
+}
+
+.faqs2 .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color:#E5E5E5;}
+.faqs2 .panel-body{
+    padding-top: 5px;
+}
+.faqs2 .panel.panel-default{
+    border:none;
+    box-shadow:0px 0px 0px rgb(199 199 201 / 25%);
+    border-radius:0px;
+    margin-top:7px;
+    background-color:  #E5E5E5;
+}
+
+.faqs2 .panel-group .panel+.panel{
+    margin-top:7px;
+}
+.faqs2 .panel-heading img{
+    height:24px;
+    width:24px;
+    margin-left:30px;
+}
+.faqs2 hr{
+    width:100%;
+    background: #6f9792;
+    height:2px;
+    margin:0px;
+    border:none;
+    border-radius: 0px;
+    margin-left:16px;
+
+}
+.faqs2 #collapse2 .panel-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.panel-body .part1 img{
+    height:48px;
+    width:48px;}
+.panel-body .part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px;
+    margin-left:0px;
+    margin-right:108px;
+    padding-right:30%;
+    padding-bottom:20px;
+    height:50px;
+    width:100%;
+    padding-left:10%;
+    
+}
+.panel-body .part2{
+    font-size: 16px;
+line-height: 140%;
+/* or 22px */
+height:100px;
+
+color: #545454;
+}
+.triviatext{
+    font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+
+color: #545454;
+
+
+}
+.panel-body .part3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+padding-left: 2.5em;
+text-indent:-2.1em;
+height:320px;
+color: #545454;
+}
+
+.panel-body .part3 img{
+    height:24px;
+    width:24px;
+    margin-right:10px;
+    
+}
+
+
+

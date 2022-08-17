@@ -1,0 +1,66 @@
+.timer{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+}
+
+
+.timer{
+    display: flex;
+    flex-direction: column;
+}
+.countdown-timer input[type='text']{
+    width:40px;
+    height:35px;
+    border: none;;
+}
+.timer-show{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    padding-right:10px;
+}
+.timer button{
+    outline: none;
+        width: 140px;
+        height: 45px;
+        margin-left:75px;
+        margin-top:15px;
+        background: rgb(195, 56, 176);
+        box-shadow: 0px 2px 4px rgba(199, 199, 201, 0.15);
+        border:none;
+        border-radius: 8px;
+
+        font-family: 'M PLUS Rounded 1c', sans-serif;  
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+color: #fff;
+}
+.countdown-timer{
+    width:140px;
+    height:35px;
+    font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+letter-spacing: 2px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background: #FFFFFF;
+border-radius: 5px;
+color: #333333;
+margin-left:75px;
+
+
+}

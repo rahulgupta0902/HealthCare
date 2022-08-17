@@ -1,0 +1,102 @@
+:root{
+    --primary-color : #6F9792;
+    --seconday-color : #E4E4E2;
+    --angry-color : #FC8379;
+    --happy-color : #FFE990;
+    --surprise-color : #FBB881 ;
+    --sad-color  : #83D0FF;
+    --neutral-color : #C9C9C9;
+    --fear-color : #AAA4EC;    
+}
+
+
+.primaryalign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.secondaryalign{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.escontent{
+     height: 100%;
+     width:100%;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.escontainer{
+    margin: 3rem;   
+    width: 80%;
+}
+.subcaption{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.subheader{
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 800;
+}
+.btns{
+    margin-top: 2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.secondary-btn-text{
+    color: black;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.primary-btn-text{
+    color: white;
+    font-weight: 800;
+    font-size:1.5rem;
+}
+.angrydiv {
+    background-color: var(--angry-color);
+    border-radius: 0.8rem;
+  
+  
+}
+.surprisediv{
+    background-color: var(--surprise-color);
+    border-radius: 0.8rem;
+
+}
+.feardiv{
+    background-color: var(--fear-color);
+    border-radius: 0.8rem;
+
+}
+.happydiv{
+    background-color: var(--happy-color);
+    border-radius: 0.8rem;
+
+}
+.saddiv{
+    background-color: var(--sad-color);
+    border-radius: 0.8rem;
+
+}
+.neutraldiv {
+    background-color: var(--neutral-color);
+    border-radius: 0.8rem;
+}
+.esemotions{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+}

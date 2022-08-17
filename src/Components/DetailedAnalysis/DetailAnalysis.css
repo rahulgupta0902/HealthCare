@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@300;500&family=Roboto+Mono:wght@200;400&display=swap');
+
+.detailOverall{
+    background:#E5E5E5; 
+    margin: 0%;
+    
+}
+
+.detailAnalysiscontainer{ 
+    width: 93%;
+    margin: auto;   
+}
+    
+.dropdownDetailAnalysisContainer{
+    background-color:white;
+    width: 10%;
+}
+.dropdownDetailAnalysis{
+    background: #E4E4E2;
+    font-size: 2rem;
+}
+.detailAnalysiscontent{
+padding-top: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+.detailAnalysisFirstRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.backbtn{
+    font-weight :500;
+    font-size: 2rem;
+}
+
+.detailAnalysisContainerHeader{ 
+height: 3em;
+width: 100%;
+box-shadow: 0px 4px 8px rgba(199, 199, 201, 0.5);
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top :2em;
+background: white;
+}
+.dadownload{
+    margin-top: 2em;
+    width: 100%;    
+    display: flex;
+    flex-direction: row-reverse;
+    height: 2em;    
+}
+.shareicon{
+    margin-right: 2rem;
+    cursor: pointer;
+
+}
+.downloadicon{
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.daicons{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+  
+    align-items: center;
+    
+}
+.ec{
+padding: auto;
+width: 15%;
+box-shadow: 0px 4px 8px rgba(199, 199, 201, 0.5);
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+padding-left: 2rem;
+height: 16rem;
+justify-content: center;
+flex-wrap: wrap;
+background: white;
+}
+.echeader{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+}
+.ece{
+    font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 15px;
+margin: 2rem;
+
+}
+.ecpercent{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+color: #545454;
+margin: 1rem;
+}
+.ecfooter{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #787878;
+}
+.dagraphs {    
+    width: 100%;   
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-around;    
+    box-shadow: 0px 5.52518px 11.0504px rgba(199, 199, 201, 0.5);
+border-radius: 11.0504px;
+margin-top: 4rem;
+background: white;
+
+    
+}
+.graphheader{
+    padding-top: 1em;
+}
+.daline{
+    width: 100%;
+    margin: auto;
+}
+.labels{
+    width: 3rem;
+    height: 3rem;
+}
+.fes{
+    font-family: 'Rounded Mplus 1c';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 21px;
+padding-left: 1rem;
+padding-top: 1em;
+}
+
+.drp{
+    margin-left: 4rem;
+}
+.dropdowncaption{
+ 
+    font-size: small;
+    font-style: oblique;
+    font-weight: 500;
+    margin-right: 0.2rem;
+
+}
+.inputdropdown{
+    width: 8rem;
+}
+
+
+.inputdropdown{
+    width: 8rem;
+}
+.dabox{
+    background: white;
+    box-shadow: 0px 5.52518px 11.0504px rgba(199, 199, 201, 0.5);
+    border-radius: 11.0504px;  
+}
+.dathirdrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.detailanaysisboxes{
+    width: 30%;
+}
+.canvas{
+    position: relative!;
+}
+.dasubcaption{
+    font-size: 12px;
+    color:#787878;
+    padding: 1rem;
+    font-weight: 500;
+
+}
+.boldcount{
+    font-size: 10rem;
+    font-weight: 900;
+    text-align: center;
+}
+.dathirdrow{
+    width: 100%;
+}
+.alignthree{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+.healsessionbox{
+    width: 60%;
+    box-shadow: 0px 5.52518px 11.0504px rgba(199, 199, 201, 0.5);
+    border-radius: 11.0504px;  
+    background: white;
+  
+
+}
+.promdorobox{
+    box-shadow: 0px 5.52518px 11.0504px rgba(199, 199, 201, 0.5);
+    border-radius: 11.0504px;  
+    width: 23%;
+    background:white;
+
+}
+.dafourthrow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+   
+}
+.dafifthrow{
+    margin-top: 4rem;
+    box-shadow: 0px 5.52518px 11.0504px rgba(199, 199, 201, 0.5);
+    border-radius: 11.0504px;  
+    width:100%;
+    background-color: white;
+
+}
+.dailyroutineboxes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.dailyroutinebox{
+    width: 20%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    background: white;
+}
+.dailyimages{
+    box-shadow: 0px 5.52518px 11.0504px rgba(199, 199, 201, 0.5);
+    border-radius: 11.0504px;  
+    height: 70%;
+    
+   
+}
+.dadailyroutineheader{
+   
+    height: 30%;
+    padding: 2rem;
+
+}

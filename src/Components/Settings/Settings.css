@@ -1,0 +1,490 @@
+:root{
+    --primary-color : #6F9792;
+    --seconday-color : #E4E4E2;
+    --angry-color : #FC8379;
+    --happy-color : #FFE990;
+    --surprise-color : #FBB881 ;
+    --sad-color  : #83D0FF;
+    --neutral-color : #C9C9C9;
+    --fear-color : #AAA4EC;    
+    --text-color :  #787878;
+    --fontColorSubscription :#333333;
+}
+.settingsContainer{
+    position: relative;
+    min-height: 100vh;
+    background-color:aliceblue;
+    /* width: 100vw;
+    */
+}
+.settingsContent{
+  width: 100%;
+}
+.margins{
+    margin-top: 10rem;
+}
+
+.leftimg{
+    position: absolute;
+    left: 0%;
+    bottom:0%;    
+    width: 30%;
+
+}
+
+.rightimg{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 30%; 
+}
+.inputText {
+    height: 56px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    font-size: 17px !important;
+    line-height: 1.1 !important;
+    margin-bottom: 2rem;
+  }
+  .fontText{
+    font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 21px;
+
+color: #343434;
+  }
+  .savebtn{
+    width: 100%;
+height: 56px;
+background: #333333;
+border-radius: 8px;
+color: white;
+  }
+  .emailiddiv{
+    
+    width: 60vw;
+    
+  }
+  .secondaryalign2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .primaryalign2{
+    display: flex;
+    flex-direction: column;
+  
+    
+  }
+  .textalign2{
+    text-align: start;
+    width: 65%;
+    padding: 0;
+  
+  }
+  .emergencydiv1{
+    font-weight: 400;
+     color: #787878;;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .quicksupportbox{
+    
+background: #FFFFFF;
+border: 1px solid #E4E4E2;
+box-shadow: 0px 4px 8px rgba(199, 199, 201, 0.25);
+border-radius: 8px;
+width: 50vw;
+height: 25vh;
+
+
+  }
+  .editicon{
+    width: 100%;    
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  
+  }
+  .detailsalert{
+    padding-top: 3rem;
+    overflow: scroll;
+    height: 30%;
+  }
+  .alertcontent{
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+.sendalertbox{
+    margin-top: 4rem;
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    color: var(--primary-color);
+
+
+}
+.checkboxesgroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.manualalert{
+    width: 40vw;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--primary-color);
+    
+
+}
+.textalign3{
+    font-weight: 500;
+}
+.privacycontainers{
+    color: var(--text-color);
+    width: 60vw; 
+
+    
+    font-weight: 400;
+    font-size: 1.5rem;
+
+
+}
+.test{
+    background-color: #2999f5;
+
+    
+}
+
+
+.settingsContainer Form {
+    margin: 2rem auto;
+  }
+
+  .overallDiv1 {
+    justify-content: center;
+    margin: auto 10% !important;
+  }
+  .headerText {
+    padding: 0.5rem; 
+    background: transparent !important;
+    text-align: left !important;
+    font-size: 1.2em;
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 800;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    display: block;   
+  }
+  .headerText1 {
+    text-align: center;
+    justify-content: center;
+    font-weight: 800;    
+    font-size: 16px !important;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin: 1.5rem auto;
+  }
+  .category-heading {
+    /* display: flex;
+    justify-content: space-between; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .category p {
+    opacity: 0.6;
+  }
+  
+  .category h3 {
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+  
+  .upper {
+    width: 100%;
+    padding: 10px 0 10px 30px;  
+   
+  }
+  
+  .lower {
+    padding: 30px;
+    border-radius: 0px 0px 10px 10px;
+    color: rgb(0, 0, 0);
+  }
+  .lower Label {
+    text-transform: capitalize;
+  }
+  
+  .lower h4 {
+    color: #2999f5;
+  }
+  
+  .eligible-options {
+    background-color: #7ab4e41e;
+  }
+  .eligible-type {
+    background-color: white;
+    padding: 20px;
+  }
+  .courseName {
+    margin: 0 !important;
+    font-size: 1em !important;
+    padding: 0 !important;
+    margin-left: 15rem;
+    align-items: center;
+    width: 90%;
+  }
+  
+  tbody,
+  table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  tr {
+    display: flex;
+  }
+  
+  .ug-pg-h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    /* line-height: 2.3em; */
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  .ug-pg-h1:hover {
+    font-size: 2.2em;
+  }
+  
+  .ug-pg-span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+  }
+  .ug-pg-h1 em {
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .ug-pg h1 {
+    text-transform: capitalize;
+  }
+  .ug-pg h1::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 150px;
+    height: 4px;
+    content: "";
+    background-color: rgb(49, 68, 131);
+    transform: scaleX(1);
+    transition: transform 250ms ease-in-out;
+  }
+  .ug-pg-h1:after {
+    transform-origin: 0% 50%;
+  }
+  
+  .ug-pg-h1:hover:after {
+    transform: scaleX(3);
+  }
+  
+  .ug-pg h1 span {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 2em;
+    padding-left: 0.25em;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 10px;
+  }
+  .ug-pg {
+    position: relative;
+    background: #ffffff;
+    /* width: 95%; */
+    /* max-width: 500px; */
+    padding: 2em;
+    margin: 1em 1em;
+    /* border: 3px solid rgba(0, 0, 0, 0.08); */
+  }
+  
+  @media (max-width: 400px) {
+    .category h3 {
+      font-size: 1.1em;
+    }
+    .category p {
+      font-size: 0.9em;
+    }
+    .headerText {
+      font-size: 1em;
+    }
+    .courseName {
+      font-size: 0.9em !important;
+    }
+    .ug-pg-h1 {
+      font-size: 1.2em;
+    }
+    .ug-pg-span {
+      font-size: 9px !important;
+      padding-top: 5px;
+    }
+    .ug-pg h1::after {
+      width: 100px;
+    }
+    .ug-pg-h1:hover:after {
+      transform: scaleX(1.5);
+    }
+  }
+  .profileImage{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    background: #080808;
+  }
+  .ImageDivTwo{
+    width: 15rem;
+    height: 15rem;
+    color: white;
+
+   
+  }
+  .ImageDivOne{
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 12rem;
+    border :5px solid black;
+    color:white;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ImageDivOne:hover{
+    background-color: #333333;    
+    color: white;
+    text-align: center;
+   
+  }
+  .subscriptionContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+    width: 50vw;
+    height: 45vh;
+    
+  }
+  .CardPlan{
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+  .settingsSubscriptionHeader{
+    font-weight: 900;
+font-size: 26px;
+line-height: 48px;
+color: var(--fontColorSubscription);
+text-align: center;
+  }
+  .CardPlanHeader{
+   
+    width: 90%;
+    min-height: 20%;
+
+  }
+  .settingsSubscriptionChoiceButton{
+    background-color: var(--primary-color);
+    width: 90%;
+    min-height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .settingsSubscriptionFeatures{
+
+    width: 90%;
+    min-height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+   
+  }
+  .settingsSubscriptionButton{
+   
+    width: 100%;
+    min-height: 15%;
+
+  }
+  .featureSettings{
+    display: flex;
+    flex-direction: row;
+   text-align: left;   
+    width: 100%;
+  
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: var(--fontColorSubscription);
+    
+  }
+  .activePlanButton{
+    background-color: white;
+    width: 45%;
+    height: 90%;
+    border-radius: 8px;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+  }
+  .unactivePlanButton{
+    width: 45%;
+    cursor: pointer;
+  }
+  @media (max-width: 600px) {
+    .overallDiv1 {
+      justify-content: center;
+      margin: auto 5% !important;
+    }
+  }
+  .css-qfz70r-MuiFormGroup-root {
+    justify-content: space-around;
+    margin-right: 30px;
+  }
+  

@@ -1,0 +1,34 @@
+.selfcarepromptquestion{
+    width: 60vw;
+    height: 60vh;
+    flex-wrap: wrap;   
+}
+.prompttext{
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #333333;
+width: 100%;
+text-align: center;
+height: 80%;
+}
+.prompttext{
+    font-style: normal;
+font-weight: 800;
+font-size: 3rem;
+line-height: 36px;
+text-align: center;
+
+}
+.promptQuestions{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   
+    text-align: center;
+}

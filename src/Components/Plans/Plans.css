@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;500&display=swap');
+
+.plans-container{
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: aliceblue;
+    height: 91%;
+    width: 100%;
+
+}
+.plans-header{  
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;    
+    color: #000022;
+    margin: 1rem;
+}
+.bottom-border{  
+    width: 49px;
+    height: 0px;
+    border: 5px solid #6F9792;
+}
+.plans-para{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 0, 34, 0.35);
+    margin: 1rem;
+}
+.para-two{   
+    font-weight: 800;  
+    color: rgba(0, 0, 34, 0.75);
+}
+.plans-table{
+    width: 80vw;
+    
+     
+}
+.price-comparison {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+ 
+}
+.price-column {
+    background-color: white;     
+    flex-grow: 1;
+    flex-basis: 0;   
+   
+  
+}
+.price-header {
+    
+    font-weight: bold;
+  }
+  .price {
+    font-size: 3.5rem;
+    display: flex;
+    
+  }
+  .plan-price{
+    font-weight: 900;
+    margin: 0;
+  }
+  .price-upper{
+    height: 30vh;
+   
+  }
+  .price-down{
+    height: 35vh;
+  }
+
+  
+  .dollar-sign {
+    font-size: 2rem;    
+    margin-right: .25rem;    
+    color: #787878;
+    font-weight: 500;
+    align-self: flex-start;
+  }
+  
+  .per-month {
+    font-size: 1rem;
+    align-self: flex-end;  
+    text-transform: uppercase;
+  }
+  
+  .plans-name {
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color: #333333;
+    font-weight: 800;
+  }
+  .divider {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    margin-bottom: 2rem;
+  }
+  .active-plan-btn-text{
+    color:#000022
+  }
+  .plan-button{
+      
+background: #6F9792;
+box-shadow: 0px 4px 4px rgba(111, 151, 146, 0.25);
+border-radius: 8px;
+width: 232px;
+height: 64px;
+color: white;
+border: none;
+margin-top: 2rem;
+cursor: pointer;
+
+  }
+  .active-plan-btn{
+    background: aliceblue;
+box-shadow: 0px 4px 4px rgba(111, 151, 146, 0.25);
+border-radius: 8px;
+width: 232px;
+height: 64px;
+color: white;
+border: none;
+margin-top: 2rem;
+cursor: pointer;
+
+  }
+.plan-button-text{
+    font-weight: 800;
+font-size: 18px;
+}
+.illustration{
+  height: 12.1rem;
+  
+}
+.period{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.fplan{
+  margin-top: 2rem;
+}
+.feature{
+  margin-top: 1rem;
+  font-weight: 600;
+}

@@ -1,0 +1,8 @@
+.material_input input:focus-within ~ label,
+.material_input input:not(:placeholder-shown) ~ label {
+  @apply tw-transform tw-scale-75 -tw-translate-y-6;
+}
+
+.material_input input:focus-within ~ label {
+  @apply tw-text-white;
+}

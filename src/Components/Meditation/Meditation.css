@@ -1,0 +1,323 @@
+.Meditation-row2col2{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+}
+
+
+.Meditation-row2col2row1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+width:90%;
+
+display: flex;
+align-items: center;
+
+color: #333333;
+}
+.Meditation-row2col2row2{
+    margin-top: 17px;
+    height:260px;
+    width:95.5%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background: url('../../Assets/Relaximages/Relax.gif');
+    background-size: cover;
+border-radius: 20px;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding-top:0px;
+
+color: #787878;
+
+}
+.play{
+    padding-top:30px;
+}
+
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+    
+}
+.eye{
+    padding-top: 30px;
+}
+.eyetext{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.eyetext1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width:250px;
+    font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+margin-bottom:20px;
+color: #787878;
+margin-top: 10px;
+
+}
+.eyetext2{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width:250px;
+    font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+padding-left: 5px;
+color: #787878;
+}
+
+.wheart{
+    display: flex;
+    flex-direction: row;
+    justify-content: centre;
+    align-items: center;
+    font-style: normal;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+font-weight: 800;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+padding-top:30px;
+color: #787878;
+    margin-top:20px;
+}
+.bottom1text{
+    width:200px;
+}
+.wheartimg{
+    height:50px;
+}
+.playimage{
+    margin-top:25px;
+}
+.top{
+    margin-top:30px;
+}
+
+
+
+.play2{
+    height:100%;
+    padding-bottom: 10px;
+}
+
+
+
+.wrap1{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+}
+
+.Meditation-meditate{
+ 
+    padding-left: 7px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height:260px;
+    background-image: url('../../Assets/Relaximages/cloud.png');
+    background-size:180px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Meditation-meditate img{
+    margin-top:3px;
+    width: 140px;
+    height: 170px;
+    margin-right:5px;
+}
+.wrap2{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    
+    
+}
+.Meditation-meditate-text{
+    height:40%;
+    width:90%;
+    margin-top: 60px;
+    margin-bottom:30px;
+    font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+color: #333333;
+}
+
+.arrow{
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    width:80%;
+    justify-content: center;
+}
+.farrowimg{
+    
+    margin-right:40px;
+}
+.barrowimg{
+    
+    margin-left:40px;
+}
+.Play{
+    padding-left: 7px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.emotions-text{
+    height: 120px;
+    width: 250px;
+    text-align: initial;
+    
+    font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+
+color: #333333;
+padding-top: 30px;
+}
+.emotions-select{
+justify-content: space-around;
+width:220px;
+margin-bottom: 10px;
+
+}
+
+.anger{
+    margin-right:4px;
+}
+.neutral{
+    margin-right:4px;
+}
+.sad{
+    margin-right:4px;
+}
+.happy{
+    margin-right:4px;
+}
+.confusion{
+    margin-right:18px;
+}
+.surprise{
+    margin-right:4px;
+}
+.irritated{
+    margin-right:4px;
+}
+
+:-ms-input-placeholder{
+    font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+padding-left:5px;
+color: #C2C2C2;
+}
+
+.wrap11{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    width:100%;
+}
+.arrow1{
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    width:80%;
+    justify-content:space-between;
+    margin-left: 22px;
+}
+
+.Meditation-meditate-text1{
+    height:40%;
+    width:90%;
+    margin-top: 20px;
+    font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+color: #333333;
+}
+.top{
+    margin-top: 60px;
+    margin-bottom: 3px;
+}
+textarea[type='text']{
+    margin-right:33px ;
+    height:75px;
+background: #FFFFFF;
+border-radius: 5px;
+outline: none;
+border: none;
+padding-left: 10px;
+padding-top: 10px;
+
+}
+::placeholder{
+    font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #767474;
+}
+.Play:hover{
+    cursor: pointer;
+}
+.bottom:hover{
+    cursor: pointer;
+}
+.farrowimg{
+    cursor: pointer;
+}
+.barrowimg{
+    cursor: pointer;
+}

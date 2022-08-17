@@ -1,0 +1,507 @@
+
+div::-webkit-scrollbar {
+    display:none;
+  }
+.phq9-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background: #edecec;
+    height:91%;
+    width:100%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;  
+    font-style: normal;
+}
+.phq9-title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #6F9792;
+}
+
+.phq9-areas{
+    padding-left: 28%;
+    padding-right: 28%;
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;
+align-items: center;
+text-align:center;
+height:115px;
+font-weight: 800;
+font-size: 14px;
+line-height: 21px;
+align-items: center;
+height:80px;
+color: #E6878A;
+text-align: center;
+}
+
+
+
+.phq9-question-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.phq9-question-area img{ 
+    padding-top:280px;
+}
+.phq9-questions{
+    
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+height:380px;
+width:60%;
+
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+.phq9-questions-2{
+    
+    background:url('../../Assets/Burnimages/webcam.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+height:380px;
+width:60%;
+display: flex;
+flex-direction: row;
+
+}
+.phq9-questions-2-col1{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:100%;
+    width:70%;
+}
+.phq9-questions-2-col2{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width:30%;
+}
+
+.phq9-question-title{
+    width:100%;
+    height:95px;
+    display:flex;
+    flex-direction: row;
+    }
+.question-title1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    margin-left:115px;
+    margin-bottom: 20px;
+    padding-top:10px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+height:100px;
+color: #333333;
+}
+.question2-title1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left:115px;
+    margin-bottom: 20px;
+    padding-top:10px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+height:100px;
+color: #333333;
+}
+
+    .scroll{
+        margin-left:50px;
+        margin-right:40px;
+    }
+    .scroll-2{
+        
+        margin-left:30px;
+        margin-right:40px;
+
+        
+    }
+    
+    .phq9-section .camera{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height:50px;
+        width:17%;
+        font-weight: 800;
+font-size: 12px;
+line-height: 18px;
+margin-right:15px;
+/* identical to box height */
+color: #E6878A;
+    }
+    .phq9-section .camera2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height:15%;
+        width:100%;
+        font-weight: 800;
+font-size: 12px;
+line-height: 18px;
+padding-left:30px;
+padding-right: 15px;
+/* identical to box height */
+
+
+color: #E6878A;
+
+    }
+    
+
+    .phq9-section .camera img{
+    padding:0;
+    height:15.2px;
+    width:22px;
+}
+
+.phq9-section .camera2 img{
+    padding:0;
+    height:15.2px;
+    width:22px;
+}
+
+.q1{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.q1-text{
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #333333;
+}
+  
+
+.phq9-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
+    padding-top:11px;
+    width:40%;
+}
+.phq9-btns button{
+    border:none;
+    background-color:#edecec;
+    font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #333333;
+}
+.phq9-ending{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #787878;
+
+}
+.Options-row1 hr{
+    height:0.7px;
+    width:185.33px;
+    margin:0px;
+    margin-top: 12.5px;
+    margin-bottom: 10px;
+    background-color:  #E4E4E2;;
+}
+
+.Options{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    width:85%;
+    margin-left:20px;
+    margin-bottom:28px;
+}
+
+
+.Options-row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;
+    width:95%;
+    margin-top:5px;
+}
+.Options-row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+margin-top:5px;
+color: #949494;
+}
+
+.Options-row1 input[type='checkbox']{
+    width: 20px;
+height: 20px;
+    background: #FFFFFF;
+border: 2px solid #C2C2C2;
+border-radius: 4px;
+}
+.Options-row2 .several-days{
+    padding-left:35px;
+}
+.Options2-row1 hr{
+    height:0.3px;
+    width:185.33px;
+    margin:0px;
+    margin-top: 12.5px;
+    margin-bottom: 10px;
+    background-color:  #E4E4E2;
+}
+
+.Options2{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    width:85%;
+    margin-left:20px;
+    margin-bottom:28px;
+}
+
+
+.Options2-row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;
+    width:95%;
+    margin-top:5px;
+}
+.Options2-row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+margin-top:5px;
+color: #949494;
+}
+
+.Options2-row1 input[type='checkbox']{
+    width: 20px;
+height: 20px;
+    background: #FFFFFF;
+border: 2px solid #C2C2C2;
+border-radius: 4px;
+}
+.Options2-row2 .several-days{
+    padding-left:35px;
+}
+input[type='checkbox']
+{
+    cursor: pointer;
+}
+.Options-row2 div{
+    cursor: pointer;
+}
+.camView{
+    position: relative;
+    height:85%;
+    padding-left:50px;
+}
+.expression{
+    height:15%;
+    width:90%;
+}
+ .camView video{
+    
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    height:85%;
+    width:90%;
+    border-radius: 10px;
+    }
+    .phq9-questions3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+height:380px;
+width:60%;}
+
+    .phq9-question3-title{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    }
+    .result{
+        background:url('../../Assets/Burnimages/webcam.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 20px;
+        height:250px;
+        width:75%;
+        margin-bottom: 40px;
+        display:flex;
+        flex-direction: row;
+
+    }
+    .result-col1{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        width:35%;
+        
+    }
+    .bar{
+        border: 2.19px solid #333333;
+        border-radius:5px;
+        background-color: #333333;
+        transform: rotate(135deg);
+        width:142.84px;
+        height:0px;
+    }
+    .result-col1-row1{
+        font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #333333;
+    }
+    .result-col1-row2{
+        font-weight: 500;
+font-size: 40px;
+line-height: 71px;
+display: flex;
+flex-direction:column;
+align-items: center;
+text-align: center;
+
+color: #333333;
+    }
+    .result-col2{
+        padding-top:10%;
+        display:inline-block;
+        
+        width:65%;
+        font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+
+color: #333333;
+    }
+
+.camView canvas {
+    position: absolute !important;
+    top: 0;
+    left: 50px;
+    border-radius: 10px;
+    /* background-color: #e6878a4d; */
+}
+.emotion-analysis {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    width:90%;
+    height:50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #333333;
+}
+.emotion-analysis img{
+    padding:0px;
+    height:30px;
+    width:30px;
+}
+
+
+
